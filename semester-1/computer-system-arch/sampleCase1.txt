@@ -1,0 +1,13 @@
+;calculate the sum of ONLY positive numbers that are entered,
+;on encountering negative number program will stop and show sum
+start:
+            read
+            jumpn end
+            add temp
+            store temp
+            jump start
+ end:
+            load temp
+            write
+            stop
+temp:  .data 1 0

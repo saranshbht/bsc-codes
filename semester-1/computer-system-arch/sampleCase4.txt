@@ -1,0 +1,14 @@
+;to find sum of positive integers entered from N numbers
+    readcounter ; reads value of N
+start:
+            read
+            jumpn next 
+            add temp
+            store temp
+ next:      jumpN end
+            jump start
+ end:
+            load temp
+            write
+            stop
+temp:  .data 1 0

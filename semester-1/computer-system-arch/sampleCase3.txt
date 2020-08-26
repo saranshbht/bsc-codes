@@ -1,0 +1,13 @@
+;to find sum of N integers entered
+    readcounter   ; reads value of N
+start:
+            read
+            add temp
+            store temp
+            jumpN end
+            jump start
+ end:
+            load temp
+            write
+            stop
+temp:  .data 1 0

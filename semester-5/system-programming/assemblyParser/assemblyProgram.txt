@@ -1,0 +1,15 @@
+X dd 10,20,40,5,7,9,53,8,11,13
+sum dd 0
+mvi I,X
+mvi B,0
+mvi C,0
+L1: loadi
+add C ;fdkj
+mov C,A
+inc B
+cmp B,10
+je L2
+addi 4
+jmp L1
+L2: store sum
+stop

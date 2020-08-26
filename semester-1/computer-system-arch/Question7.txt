@@ -1,0 +1,16 @@
+regref 1 2048   ;read AC   ------------Input-Output
+add 0 temp
+store 1 temp 
+regref 1 1024   ;output AC ------------Input-Output 
+regref 0 0128        ;CIR---------------------------------Register Reference
+regref 1 1024   ;output AC ------------Input-Output 
+regref 0 0064        ;CIL---------------------------------Register Reference
+regref 1 1024   ;output AC ------------Input-Output 
+regref 0 2048        ; clear AC --------------------------Register reference 
+regref 0 0032        ; increment AC ----------------------Register reference 
+regref 1 1024   ;output AC -------------Input-Output 
+regref 0 0016        ;SPA  -------------------------------Register reference 
+regref 1 2048   ;read AC  --------------Input-Output 
+regref 1 1024   ;output AC -------------Input-Output 
+regref 0 0001        ;HLT --------------------------------Register reference 
+temp:  .data 1 20

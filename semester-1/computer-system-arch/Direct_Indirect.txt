@@ -1,0 +1,10 @@
+read
+add 0 t
+store 0 t
+load 0 t
+bun 0 a
+a:isz 1 t
+write 
+write
+stop
+t: .data 1 0

@@ -1,0 +1,34 @@
+read   
+cma   ;complement AC  
+write  
+cla    ;clear AC
+write
+incAC   ;increment AC
+write
+
+readE   ;read E....Enter 0 or 1 because size of E(register) is 1
+cmE     ;complement E
+writeE
+clE      ;clear E
+writeE 
+
+read
+cir       ;Circulate right AC and E
+write
+cil       ;Circulate left AC and E
+write
+
+read
+spa      ;skip next instruction if AC is positive
+read
+
+sna      ;skip next instruction if AC is negative
+write
+
+sza      ;skip next instruction if AC is equal to zero
+readE    ;read E....Enter 0 or 1 because size of E(register) is 1
+
+sze      ;skip next instruction if E is equal to zero
+writeE
+
+stop
